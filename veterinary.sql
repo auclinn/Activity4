@@ -149,3 +149,6 @@ VALUES
 ALTER TABLE owners ADD COLUMN registereddate DATE;
 
 ALTER TABLE invoices RENAME COLUMN paymentdate TO paymenttime;
+
+DELETE FROM invoices WHERE appointid = 8; --delete first because appointid is ref'd here
+DELETE FROM appointments WHERE appointid = 8;
