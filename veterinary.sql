@@ -154,3 +154,6 @@ DELETE FROM invoices WHERE appointid = 8; --delete first because appointid is re
 DELETE FROM appointments WHERE appointid = 8;
 
 UPDATE doctors SET dlastname = 'Reyes-Gonzales' WHERE dlastname = 'Reyes';
+
+SELECT species
+FROM animals;
