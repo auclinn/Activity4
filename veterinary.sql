@@ -157,3 +157,6 @@ UPDATE doctors SET dlastname = 'Reyes-Gonzales' WHERE dlastname = 'Reyes';
 
 SELECT species
 FROM animals;
+
+SELECT SUM(totalamount)
+FROM invoices;
