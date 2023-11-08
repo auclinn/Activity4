@@ -155,7 +155,7 @@ DELETE FROM appointments WHERE appointid = 8;
 
 UPDATE doctors SET dlastname = 'Reyes-Gonzales' WHERE dlastname = 'Reyes';
 
-SELECT species
+SELECT DISTINCT(species)
 FROM animals;
 
 SELECT SUM(totalamount)
